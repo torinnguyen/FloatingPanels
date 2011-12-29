@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		428D2EF414AC5604001AEDF4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 428D2EF314AC5604001AEDF4 /* UIKit.framework */; };
+		428D2EF614AC5604001AEDF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 428D2EF514AC5604001AEDF4 /* Foundation.framework */; };
+		428D2EF814AC5604001AEDF4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 428D2EF714AC5604001AEDF4 /* CoreGraphics.framework */; };
+		428D2EFE14AC5604001AEDF4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 428D2EFC14AC5604001AEDF4 /* InfoPlist.strings */; };
+		428D2F0014AC5604001AEDF4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 428D2EFF14AC5604001AEDF4 /* main.m */; };
+		428D2F0414AC5604001AEDF4 /* FloatingPanelAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 428D2F0314AC5604001AEDF4 /* FloatingPanelAppDelegate.m */; };
+		428D2F0714AC5604001AEDF4 /* FloatingPanelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 428D2F0614AC5604001AEDF4 /* FloatingPanelViewController.m */; };
+		428D2F0A14AC5604001AEDF4 /* FloatingPanelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 428D2F0814AC5604001AEDF4 /* FloatingPanelViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		428D2EEF14AC5604001AEDF4 /* FloatingPanels.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FloatingPanels.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		428D2EF314AC5604001AEDF4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		428D2EF514AC5604001AEDF4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		428D2EF714AC5604001AEDF4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		428D2EFB14AC5604001AEDF4 /* FloatingPanels-Info.plist */ = {isa = PBXFileReference; path = "FloatingPanels-Info.plist"; sourceTree = "<group>"; };
+		428D2EFD14AC5604001AEDF4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		428D2EFF14AC5604001AEDF4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		428D2F0114AC5604001AEDF4 /* FloatingPanels-Prefix.pch */ = {isa = PBXFileReference; path = "FloatingPanels-Prefix.pch"; sourceTree = "<group>"; };
+		428D2F0214AC5604001AEDF4 /* FloatingPanelAppDelegate.h */ = {isa = PBXFileReference; path = FloatingPanelAppDelegate.h; sourceTree = "<group>"; };
+		428D2F0314AC5604001AEDF4 /* FloatingPanelAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FloatingPanelAppDelegate.m; sourceTree = "<group>"; };
+		428D2F0514AC5604001AEDF4 /* FloatingPanelViewController.h */ = {isa = PBXFileReference; path = FloatingPanelViewController.h; sourceTree = "<group>"; };
+		428D2F0614AC5604001AEDF4 /* FloatingPanelViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FloatingPanelViewController.m; sourceTree = "<group>"; };
+		428D2F0914AC5604001AEDF4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FloatingPanelViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		428D2EEC14AC5604001AEDF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				428D2EF414AC5604001AEDF4 /* UIKit.framework in Frameworks */,
+				428D2EF614AC5604001AEDF4 /* Foundation.framework in Frameworks */,
+				428D2EF814AC5604001AEDF4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		428D2EE414AC5603001AEDF4 = {
+			isa = PBXGroup;
+			children = (
+				428D2EF914AC5604001AEDF4 /* FloatingPanels */,
+				428D2EF214AC5604001AEDF4 /* Frameworks */,
+				428D2EF014AC5604001AEDF4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		428D2EF014AC5604001AEDF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				428D2EEF14AC5604001AEDF4 /* FloatingPanels.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		428D2EF214AC5604001AEDF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				428D2EF314AC5604001AEDF4 /* UIKit.framework */,
+				428D2EF514AC5604001AEDF4 /* Foundation.framework */,
+				428D2EF714AC5604001AEDF4 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		428D2EF914AC5604001AEDF4 /* FloatingPanels */ = {
+			isa = PBXGroup;
+			children = (
+				428D2F0214AC5604001AEDF4 /* FloatingPanelAppDelegate.h */,
+				428D2F0314AC5604001AEDF4 /* FloatingPanelAppDelegate.m */,
+				428D2F0514AC5604001AEDF4 /* FloatingPanelViewController.h */,
+				428D2F0614AC5604001AEDF4 /* FloatingPanelViewController.m */,
+				428D2F0814AC5604001AEDF4 /* FloatingPanelViewController.xib */,
+				428D2EFA14AC5604001AEDF4 /* Supporting Files */,
+			);
+			path = FloatingPanels;
+			sourceTree = "<group>";
+		};
+		428D2EFA14AC5604001AEDF4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				428D2EFB14AC5604001AEDF4 /* FloatingPanels-Info.plist */,
+				428D2EFC14AC5604001AEDF4 /* InfoPlist.strings */,
+				428D2EFF14AC5604001AEDF4 /* main.m */,
+				428D2F0114AC5604001AEDF4 /* FloatingPanels-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		428D2EEE14AC5604001AEDF4 /* FloatingPanels */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 428D2F0D14AC5604001AEDF4 /* Build configuration list for PBXNativeTarget "FloatingPanels" */;
+			buildPhases = (
+				428D2EEB14AC5604001AEDF4 /* Sources */,
+				428D2EEC14AC5604001AEDF4 /* Frameworks */,
+				428D2EED14AC5604001AEDF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FloatingPanels;
+			productName = FloatingPanels;
+			productReference = 428D2EEF14AC5604001AEDF4 /* FloatingPanels.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		428D2EE614AC5603001AEDF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 428D2EE914AC5603001AEDF4 /* Build configuration list for PBXProject "FloatingPanels" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 428D2EE414AC5603001AEDF4;
+			productRefGroup = 428D2EF014AC5604001AEDF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				428D2EEE14AC5604001AEDF4 /* FloatingPanels */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		428D2EED14AC5604001AEDF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				428D2EFE14AC5604001AEDF4 /* InfoPlist.strings in Resources */,
+				428D2F0A14AC5604001AEDF4 /* FloatingPanelViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		428D2EEB14AC5604001AEDF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				428D2F0014AC5604001AEDF4 /* main.m in Sources */,
+				428D2F0414AC5604001AEDF4 /* FloatingPanelAppDelegate.m in Sources */,
+				428D2F0714AC5604001AEDF4 /* FloatingPanelViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		428D2EFC14AC5604001AEDF4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				428D2EFD14AC5604001AEDF4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		428D2F0814AC5604001AEDF4 /* FloatingPanelViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				428D2F0914AC5604001AEDF4 /* en */,
+			);
+			name = FloatingPanelViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		428D2F0B14AC5604001AEDF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		428D2F0C14AC5604001AEDF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		428D2F0E14AC5604001AEDF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FloatingPanels/FloatingPanels-Prefix.pch";
+				INFOPLIST_FILE = "FloatingPanels/FloatingPanels-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		428D2F0F14AC5604001AEDF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FloatingPanels/FloatingPanels-Prefix.pch";
+				INFOPLIST_FILE = "FloatingPanels/FloatingPanels-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		428D2EE914AC5603001AEDF4 /* Build configuration list for PBXProject "FloatingPanels" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				428D2F0B14AC5604001AEDF4 /* Debug */,
+				428D2F0C14AC5604001AEDF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		428D2F0D14AC5604001AEDF4 /* Build configuration list for PBXNativeTarget "FloatingPanels" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				428D2F0E14AC5604001AEDF4 /* Debug */,
+				428D2F0F14AC5604001AEDF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 428D2EE614AC5603001AEDF4 /* Project object */;
+}
