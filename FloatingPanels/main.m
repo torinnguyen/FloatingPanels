@@ -2,7 +2,7 @@
 //  main.m
 //  FloatingPanels
 //
-//  Created by torin on 29/12/11.
+//  Created by Torin Nguyen on 29/12/11.
 //  Copyright (c) 2011 __MyCompanyName__. All rights reserved.
 //
 
@@ -12,7 +12,15 @@
 
 int main(int argc, char *argv[])
 {
+    /* iOS SDK 4.3 */
+    NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
+    int retVal = UIApplicationMain(argc, argv, nil, NSStringFromClass([FloatingPanelAppDelegate class]));
+    [pool release];
+    return retVal;
+    
+    /* iOS SDK 5.0
     @autoreleasepool {
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([FloatingPanelAppDelegate class]));
     }
+     */
 }
